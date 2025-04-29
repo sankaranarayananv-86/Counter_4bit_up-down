@@ -88,6 +88,7 @@ Click the cds.lib file and save the file by clicking on Save option
 	Select “Don’t include any libraries (verilog design)” from “New cds.lib file” and click on “OK” as in below figure
 
 	We are simulating verilog design without using any libraries
+![Screenshot 2025-04-29 105730](https://github.com/user-attachments/assets/094ff343-446a-43ef-a566-0d61285c3df8)
 
 ## Fig 5: Selection of Don’t include any libraries
 
@@ -98,10 +99,13 @@ Click the cds.lib file and save the file by clicking on Save option
 	Left side you can see the HDL files. Right side of the window has worklib and snapshots directories listed.
 
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
+![Screenshot 2025-04-29 105738](https://github.com/user-attachments/assets/4f6338fb-fbbd-4cf2-834c-eaa6bd968bf3)
 
 ## Fig 6: Nclaunch Window
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation.
+![Screenshot 2025-04-29 110654](https://github.com/user-attachments/assets/1f817ec4-866e-408a-b498-958dd8997e6c)
+
 
 ## Step 1: Compilation:– Process to check the correct Verilog language syntax and usage 
 
@@ -131,6 +135,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located.
 It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
+![Screenshot 2025-04-29 110838](https://github.com/user-attachments/assets/696419df-ef20-435b-92bd-ae95a5c6c233)
 
 ## Step 2: Elaboration:– To check the port connections in hierarchical design 
 
@@ -165,10 +170,13 @@ It contains statements that map logical library names to their physical director
 	Steps for simulation – Run the simulation command with simulator options
 
 ## Fig 9: Design Browser window for simulation
+![Screenshot 2025-04-29 110933](https://github.com/user-attachments/assets/6f98878d-c0a7-48fb-977d-9249d273cb28)
 
 ## Fig 10: Simulation Waveform Window
+![Screenshot 2025-04-29 110933](https://github.com/user-attachments/assets/b3aefbe0-cf03-4ac6-bbde-10d4710fc158)
 
 ## Fig 11: Simulation Waveform Window
+![Screenshot 2025-04-29 111000](https://github.com/user-attachments/assets/268644b4-54e6-45d8-b9da-c26b80230fc5)
 
 ### Result
 
